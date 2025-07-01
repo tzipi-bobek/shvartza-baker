@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfirmationModal > matches snapshot when open 1`] = `
+<div>
+  <div
+    class="fixed inset-0 backdrop-blur-sm bg-white/30 z-50 flex items-center justify-center"
+  >
+    <div
+      class="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full text-center space-y-4 font-serif"
+    >
+      <p
+        class="text-lg text-gray-700"
+      >
+        Are you sure?
+      </p>
+      <div
+        class="flex justify-center gap-4 pt-2"
+      >
+        <button
+          class="btn-cremita btn-cremita-primario px-4 py-2"
+        >
+          Aceptar
+        </button>
+        <button
+          class="btn-cremita btn-cremita-secundario px-4 py-2"
+        >
+          Cancelar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
